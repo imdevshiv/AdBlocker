@@ -1,2 +1,2 @@
 # AdBlocker
- Chrome  extension for add blocking
+ Chrome  extension for ad blocking
