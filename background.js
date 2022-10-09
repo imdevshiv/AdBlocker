@@ -1,9 +1,9 @@
 chrome.webRequest.onBeforeRequest.addListener(
-    function(details) { return { cancel: true } }, { urls: blockUrl }, ["blocking"]
+    function(details) { return { cancel: true } }, { urls: blockUrls }, ["blocking"]
 )
 
 
-blockUrl = [
+blockUrls = [
     "*://*.googlesyndication.com/*",
     "*://*.adservice.google.co.in/*",
     "*://*.adservice.google.com/*",
